@@ -1,0 +1,127 @@
+/* public class */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, "Microsoft YaHei";
+}
+
+.app {
+    font-family: Arial, "Microsoft YaHei"!important;
+}
+
+button {
+    border: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.c_clear {
+    clear: both;
+}
+
+.c_clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+.cursor_pointer {
+    cursor: pointer
+}
+
+.font_blod {
+    font-weight: 900
+}
+
+.font_size12 {
+    font-size: 12px!important;
+}
+
+.a_default {
+    color: #666666!important;
+}
+
+.el-tabs a:link {
+    color: #666666!important;
+}
+/* 小按钮*/
+
+.smallButton {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 32px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #44dccc;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/*大按钮*/
+
+.bigButton {
+    cursor: pointer;
+    outline: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 32px;
+    border: none;
+    background-color: #44dccc;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: blod;
+}
+
+
+/*常规按钮*/
+
+.commonButton {
+    cursor: pointer;
+    outline: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 32px;
+    border: none;
+    background-color: #00dacd;
+    color: white;
+    border-radius: 5px;
+}
